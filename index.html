@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript Bootstrapped</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<!-- Custom styles for this template -->
+<link href="main.css" rel="stylesheet">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+</head>
+
+<body>
+<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Enterprise App Project</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">GoTo <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Action2</a></li>
+                <li><a href="#">Action3</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Resources</li>
+                <li><a href="#">link-1</a></li>
+                <li><a href="#">link-2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="row">
+      <div class="bg-info col-md-6">
+        Title or some padding here
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            <p class="panel-title">Title Heading Here</p>
+          </div><!-- panel-heading closes out here -->
+          <div class="panel-body">
+            <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/no-Ntkc836w" allowfullscreen></iframe>
+            </div> <!-- panel-embed-responsive closes out here -->
+          </div><!-- panel-body closes out here -->
+           
+
+        </div><!-- panel-warning closes out here -->
+      </div><!-- video box closes out here -->
+      <div class="bg-success col-md-3">
+        showboxes
+      </div>
+      <div class="bg-info col-md-3">
+        top news box
+      </div>
+
+    </div>
+
+
+      <div class="page-header">
+        <h1>State of JS</h1>
+      </div>
+      <h2>Imperative JavaScript</h2>
+      <p class="lead">Even closer to the root of the problem is the imperative nature of the code. Imperative programing is when your code specifies not just what you want to happen, but how you want it to happen. In other words, imperative programming means that you are dealing with many internals to make your code function properly.</p>
+
+	<p class="lead">In the code example above, we are essentially saying "when someone clicks on one of my buttons, I want to make an Ajax request to some/url passing in the ID of my targeted element. When the Ajax request comes back successfully, I want to update my UI by appending an item to my list with the data that is returned from my Ajax request.”</p>
+
+    <p class="lead">The process is very fragile. What if the name of the list element changes? What if we need to do something else with the data in addition to our current DOM manipulation? What if other parts of the UI need to be updated as a result of the button being clicked? How can we make the application aware of the data at a higher level? These are all important questions that could take us down a rabbit hole of complex UI changes, deeply nested callbacks and the terrible feeling of anxiety and depression each time someone wants us to update the application.</p>
+      <p>There has to be a <a href="#">better way!</a> </p>
+      <code>code > .container</code>
+
+      <h2>Declarative JavaScript</h2>
+	<p class="lead">Fortunately, there is a better way. In contrast to imperative, with declarative programming you only describe what you want to happen, and leave the question of how it will happen up to your framework of choice.</p>
+
+	<p class="lead">Certain frameworks do a better job of managing the internals than others, but I have found that Angular, Knockout, Ember and React all do a good job of it thanks to their various concepts of two-way binding.</p>
+
+	<p class="lead">With the framework of your choice, you should be able to update the data in a model layer and have the UI automatically update without ever writing any code to change anything in the DOM. Make no mistake, all of these frameworks are changing the DOM, but that has been abstracted away to the point where you should never have to manipulate it directly or with jQuery.</p>
+
+    </div>
+
+
+    <!-- <p id="mydemo">This is a demonstration.</p>
+
+    <p>Click Date to display current day, date, and time.</p>
+
+    <button type="button" onclick="myFunction()">Date</button>
+
+    <p id="contentwillbehere"></p> -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+      <div class="container">
+        <p class="text-muted">2014 Copyright sdbwebsolutions.sdb <span>-Thank you.- Would you like to have a one-page site like this?</span></p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- My own JavaScript -->
+<script src="certified.js"></script>
+
+</body>
+</html>
